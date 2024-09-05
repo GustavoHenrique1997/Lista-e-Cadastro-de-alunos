@@ -1,0 +1,82 @@
+#cadastro{
+	/*display: ;*/
+	
+}
+.nav-wrapper{
+	margin-right: 2%;
+	margin-left: 1%;
+	
+}
+
+#listar{
+	display: none;
+	margin-top: 10%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#lixeira{
+	display: none;
+}
+
+#botaoeditar{
+	text-align: right;
+	font-size: tiny !important;
+
+}
+
+#formulario{
+	margin-left: 5% !important;
+	/*margin-right: 50% !important;*/
+	margin-top: 5%;
+}
+#cep{
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 5%;
+	border:2px solid #000;
+	border-radius: 8px;
+	/*background-color: ;*/
+	padding-bottom: 20px;
+	line-height: 25px;
+    
+}
+
+#CAMPOCEP{
+	margin-left: 2%;
+}
+#botaocadastrar{
+	display: none;
+}
+#calcularcep,#botaocadastrar{
+	
+	margin-left: 40%
+}
+
+    #nome,#idade,#curso,#turno,#matriculado,#CAMPOCEP{
+        color: #e45358;
+        font-size: 20px;
+		
+    }
+
+	#botaodeletar,#botaoeditar{
+		font-size: 5% !important;
+	}
+
+/*Dividindo a página*/
+.linha{
+display: flex;
+flex-flow: row wrap;
+}
+
+.coluna-50 {
+    width: 50%;
+}
+
+
+
+@media (max-width: 1000px) {
+    
+#lista,#botaolixeira{
+display: block !important;
+}
